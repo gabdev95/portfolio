@@ -1,0 +1,65 @@
+.navbar {
+    background-color: white;
+    width: 100%;
+}
+
+#sobre {
+    background-size: 100vw;
+    width: 100%;
+    height: 55vw;
+    color: #111111;
+}
+
+#portfolio {
+    background-color: white;
+    background-size: 100vw;
+    width: 100%;
+    height: 55vw;
+    color: #111111;
+}
+
+#habilidades {
+    background-size: 100vw;
+    width: 100%;
+    height: 55vw;
+    color: #111111;
+}
+
+.titulo {
+    padding-top: 80px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+}
+
+.habilidades {
+    text-align: center;
+}
+
+.altura {
+    padding-bottom: 70px;
+}
+
+#botao {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+#contato {
+    background-color: white;
+    background-size: 100vw;
+    width: 100%;
+    height: 55vw;
+    color: #111111;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+body {
+    background: #F5F5F5;
+}

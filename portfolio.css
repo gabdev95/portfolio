@@ -1,134 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
 body {
-    background: #F5F5F5;
-    font-family: 'Quicksand', sans-serif;
+  background: #f5f5f5;
+  font-family: "Quicksand", sans-serif;
 }
 
 footer {
-    background-color: #0C000E;
-    color: white;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px;
+  background-color: #0c000e;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
 /* TEXTOS E TÍTULOS */
 
 h1 {
-    color: #FFA53B;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 0vw;
+  color: #f5f5f5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0vw;
 }
 
 .apresentacao1 {
-    font-weight: bold;
-    font-size: 75px;
+  font-weight: bold;
+  font-size: 75px;
 }
 
 .apresentacao2 {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+.apresentacao_sobre {
+  color: #2e4861;
+  font-weight: bold;
+  font-size: 75px;
 }
 
 .titulo {
-    text-align: left;
-    padding-top: 80px;
-    padding-bottom: 25px;
+  text-align: left;
+  padding-top: 80px;
+  padding-bottom: 25px;
 }
 
 /* NAVBAR */
 
 .navbar {
-    background-color: white;
-    width: 100%;
+  background-color: white;
+  width: 100%;
 }
 
 .navbar-brand {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 /* INICIO */
 
-
 .inicio {
-    background-image: url("img/inicio.png");
-    background-color: #F5F5F5;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding-top: 15vw;
-    padding-bottom: 15vw;
-    color: white;
+  background-image: url("img/inicio.png");
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
+  color: white;
 }
-
 
 /* SOBRE */
 
 .foto {
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 25px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 25px;
 }
 
 .titulo_sobre {
-    text-align: center;
-    padding-top: 80px;
+  color: #2e4861;
+  text-align: center;
+  padding-top: 80px;
 }
 
 .sobre {
-    background-color: #F5F5F5;
-    text-align: justify;
+  background-color: #f5f5f5;
+  text-align: justify;
 }
 
 .sobre_mim {
-    color: black;
-    text-align: justify;
+  color: black;
+  text-align: justify;
 }
 
 .bt_midia {
-    width: 160px;
-    height: 40px;
+  width: 160px;
+  height: 40px;
 }
 
 .botao_direita {
-    text-align: right;
+  text-align: right;
 }
 
 .bt_cor {
-    color: #FFA53B;
-    border-color: #FFA53B;
+  color: #2e4861;
+  border-color: #2e4861;
 }
 
 .bt_cor:hover {
-    color: white;
-    background-color: #FFA53B;
-    border-color: #FFA53B;
+  color: white;
+  background-color: #2e4861;
+  border-color: #2e4861;
 }
 
 /* PORTFOLIO */
 
 .titulo_port {
-    text-align: left;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  color: #2e4861;
+  text-align: left;
+  padding-top: 80px;
+  padding-bottom: 25px;
 }
 
-.portfolio{
-    background-color: #F5F5F5;
-    background-size: 100vw;
-    width: 100%;
-    height: 100%;
-    color: #111111;
+.portfolio {
+  background-color: #f5f5f5;
+  background-size: 100vw;
+  width: 100%;
+  height: 100%;
+  color: #111111;
 }
 
 /*  HABILIDADES */
 
+.titulo_hab {
+  color: #2e4861;
+  text-align: left;
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+
 .habilidades {
-    background-color: #F5F5F5;
-    background-size: 100vw;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 3vw;
-    color: #111111;
+  background-color: #f5f5f5;
+  background-size: 100vw;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3vw;
+  color: #111111;
 }

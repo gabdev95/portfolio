@@ -64,11 +64,11 @@
                 <div class="foto align-self-center col"><img src="img/aboutme.png"
                         style="width: 350px; height: 350px; border-radius: 350px;"></div>
                 <div class="align-self-center sobre_mim col">
-                    <h5>Sou estudante de Sistemas de Informação pela Universidade Federal Rural de Pernambuco
+                    <h5>Estudante de Sistemas de Informação pela Universidade Federal Rural de Pernambuco
                         (UFRPE) e formada em Licenciatura em Expressão Gráfica pela Universidade Federal de Pernambuco (UFPE). </h5>
-                        <h5>Sou criativa, determinada e me interesso bastante pelas áreas de Front-End e Web
-                        Design, mas estou sempre
-                        buscando novos conhecimentos nas demais áreas de tecnologia.</h5>
+                        <h5>Criativa, determinada, entusiasta nas áreas de Front-End e Web
+                        Design e sempre
+                        em busca de novos conhecimentos nas demais áreas de tecnologia.</h5>
                     <div class="botao_direita">
                         <a href="https://drive.google.com/drive/folders/178FpPMlApy5v2TWc1IiqFx78KCi9KanY?usp=sharing" target="blank"><button type="button" class="btn btn-outline bt_midia bt_cor">Certificados</button></a>
                         <a href="#" target="blank"><button type="button" class="btn btn-outline bt_midia bt_cor">Currículo</button></a>
@@ -174,8 +174,8 @@
     <section id="habilidades">
         <a name="habilidades"></a>
         <div class="container-fluid habilidades text-center">
-            <h1 class=" container titulo_hab">Habilidades</h1>
-            <div class="habilidades ">
+            <h1 class="container titulo_hab">Habilidades</h1>
+            <div class="habilidades">
                 <div class="row">
                     <div class="col-4">
                         <img src="img/html.png" alt="HTML" width="100px">
@@ -206,9 +206,41 @@
         </div>
     </section>
 
-    <footer>
+    <section id="contato">
         <a name="contato"></a>
-        <p>Gabriele de Medeiros</p>
+        <div class="container-fluid contato">
+            <h1 class=" container titulo_cont">Entre em contato</h1>
+            <div class="container row">
+                <div class="col-md-7">
+                    <h2 class="txt_contato">Entre em contato</h2>
+                </div>
+                <div class="col-md-5 form">
+                    <form action="https://formsubmit.co/gabriele.mdemedeiros@gmail.com" method="POST">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" required>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" placeholder="Escreva aqui" id="message" required></textarea>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5501/#contato">
+                        <button type="submit" class="btn btn-outline bt_cor bt_contato">Enviar</button>
+                   </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+              Gabriele de Medeiros
+            </div>
+            <div class="col">
+              <p><img src="img/telefone.png" style="width: 20px; height: 20px;"> (81) 9 8361-6550</p>
+              <p><img src="img/email.png" style="width: 20px; height: 20px;"> gabriele.mdemedeiros@gmail.com</p>
+            </div>
     </footer>
 
 </body>

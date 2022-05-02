@@ -6,7 +6,7 @@ body {
 }
 
 footer {
-  background-color: #0c000e;
+  background-color: #120052;
   color: white;
   text-align: center;
   padding-top: 25px;
@@ -31,7 +31,7 @@ h1 {
 }
 
 .apresentacao_sobre {
-  color: #2e4861;
+  color: #120052;
   font-weight: bold;
   font-size: 75px;
 }
@@ -76,7 +76,7 @@ h1 {
 }
 
 .titulo_sobre {
-  color: #2e4861;
+  color: #120052;
   text-align: center;
   padding-top: 80px;
 }
@@ -102,20 +102,20 @@ h1 {
 }
 
 .bt_cor {
-  color: #2e4861;
-  border-color: #2e4861;
+  color: #120052;
+  border-color: #120052;
 }
 
 .bt_cor:hover {
   color: white;
-  background-color: #2e4861;
-  border-color: #2e4861;
+  background-color: #120052;
+  border-color: #120052;
 }
 
 /* PORTFOLIO */
 
 .titulo_port {
-  color: #2e4861;
+  color: #120052;
   font-size: 50px;
   text-align: left;
   padding-top: 80px;
@@ -133,7 +133,7 @@ h1 {
 /*  HABILIDADES */
 
 .titulo_hab {
-  color: #2e4861;
+  color: #120052;
   font-size: 50px;
   text-align: left;
   padding-top: 80px;
@@ -144,7 +144,76 @@ h1 {
   background-color: #f5f5f5;
   background-size: 100vw;
   width: 100%;
-  height: 100%;
-  padding-bottom: 3vw;
+  height: 100%;;
   color: #111111;
+}
+
+/* CONTATO */
+
+.titulo_cont {
+  color: #120052;
+  font-size: 50px;
+  text-align: left;
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+
+.txt_contato {
+  padding-left: 40px;
+}
+
+.contato {
+  background-color: #f5f5f5;
+  background-size: 100vw;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5vw;
+  color: #111111;
+}
+
+.form {
+  font-size: 1rem;
+}
+
+.bt_contato {
+  width: 100%;
+  height: 40px;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form bt_contato {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: #120052;
+  line-height: 1;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.form input,
+.form textarea {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #120052;
+  box-shadow: 0 0 0 3px #4dc8ff;
 }

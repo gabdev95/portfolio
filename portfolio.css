@@ -159,7 +159,8 @@ h1 {
 }
 
 .txt_contato {
-  padding-left: 40px;
+  align-items: center;
+  text-align: center;
 }
 
 .contato {

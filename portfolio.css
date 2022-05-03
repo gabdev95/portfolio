@@ -71,7 +71,7 @@ h1 {
 
 .foto {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 25px;
 }
 
@@ -84,6 +84,7 @@ h1 {
 .sobre {
   background-color: #f5f5f5;
   text-align: justify;
+  height: auto;
 }
 
 .sobre_mim {

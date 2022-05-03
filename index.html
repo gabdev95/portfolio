@@ -4,9 +4,12 @@
 <head>
     <title>GabrieleMedeiros</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="portfolio.css">
-    <script src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
 
 </head>
 
@@ -62,9 +65,9 @@
         <div class="container">
             <h1 class="apresentacao_sobre titulo_sobre">Sobre mim</h1>
             <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-                <div class="foto align-self-center col"><img src="img/aboutme.png"
+                <div class="foto align-self-center col-sm-5 col-xs-12"><img src="img/aboutme.png"
                         style="width: 350px; height: 350px; border-radius: 350px;"></div>
-                <div class="align-self-center sobre_mim col">
+                <div class="align-self-center sobre_mim col-sm-7 col-xs-12">
                     <h5>Estudante de Sistemas de Informação pela Universidade Federal Rural de Pernambuco
                         (UFRPE) e formada em Licenciatura em Expressão Gráfica pela Universidade Federal de Pernambuco (UFPE). </h5>
                         <h5>Criativa, determinada, entusiasta nas áreas de Front-End e Web
@@ -212,12 +215,12 @@
         <div class="container-fluid contato">
             <h1 class=" container titulo_cont">Entre em contato</h1>
             <div class="container-fluid row">
-                <div class="col-md-7 justify-content-md-center justify-content-sm-center justify-content-xs-center">
-                    <div class="align-self-center txt_contato"><img src="img/mensagem.jpeg" style="width: 380px; height: 380px;padding-bottom: 25px;"></div>
-                    <p class="txt_contato"><img src="img/telefone.png" style="width: 20px; height: 20px;"> (81) 9 8361-6550</a></p>
-                    <p class="txt_contato"><img src="img/email.png" style="width: 20px; height: 20px;"> gabriele.mdemedeiros@gmail.com</p>
+                <div class="col-sm-7 d-none d-sm-block justify-content-md-center justify-content-sm-center justify-content-xs-center">
+                    <div class="align-self-center txt_contato"><img src="img/mensagem.png" style="width: 380px; height: 380px;padding-bottom: 25px;"></div>
+                    <p class="txt_contato"><img src="img/telefone_a.png" style="width: 20px; height: 20px;"> (81) 9 8361-6550</p>
+                    <p class="txt_contato"><img src="img/email_a.png" style="width: 20px; height: 20px;"> gabriele.mdemedeiros@gmail.com</p>
                 </div>
-                <div class="col-md-5 form">
+                <div class="col-sm-5 form">
                     <form action="https://formsubmit.co/gabriele.mdemedeiros@gmail.com" method="POST">
                         <label for="name">Nome</label>
                         <input type="text" name="name" id="name" required>
@@ -235,8 +238,16 @@
         </div>
     </section>
 
-    <footer class="container-fluid"> 
-        Gabriele de Medeiros 2022  
+    <footer class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-xs-12">
+                <p>Gabriele de Medeiros</p>
+            </div>
+            <div id="contatos" class="col d-sm-none">
+                <p class="col-sm-12"><img src="img/telefone_b.png" style="width: 20px; height: 20px;"> (81) 9 8361-6550</p>
+                <p class="col-sm-12"><img src="img/email_b.png" style="width: 20px; height: 20px;"> gabriele.mdemedeiros@gmail.com</p>
+            </div>
+        </div>
     </footer>
 
 </body>
